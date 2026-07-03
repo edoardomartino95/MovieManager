@@ -105,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
+      "projectUniqueName": "C:\\Users\\A507apulia\\source\\repos\\MovieManager\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
       "projectName": "MovieManager.PL.API",
-      "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
+      "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManager\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
       "packagesPath": "C:\\Users\\A507apulia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\obj\\",
+      "outputPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManager\\MovieManager.PL.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,8 +131,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.BLL\\MovieManager.BLL.csproj": {
-              "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.BLL\\MovieManager.BLL.csproj"
+            "C:\\Users\\A507apulia\\source\\repos\\MovieManager\\MovieManager.BLL\\MovieManager.BLL.csproj": {
+              "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManager\\MovieManager.BLL\\MovieManager.BLL.csproj"
             }
           }
         }
@@ -601,7 +601,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'Microsoft.OpenApi' 2.0.0 presenta una vulnerabilità nota di gravità alta, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
