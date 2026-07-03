@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManger.PL.MVC\\MovieManger.PL.MVC.csproj",
-      "projectName": "MovieManger.PL.MVC",
-      "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManger.PL.MVC\\MovieManger.PL.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManger.PL.MVC\\MovieManager.PL.MVC.csproj",
+      "projectName": "MovieManager.PL.MVC",
+      "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManger.PL.MVC\\MovieManager.PL.MVC.csproj",
       "packagesPath": "C:\\Users\\A507apulia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManger.PL.MVC\\obj\\",
       "projectStyle": "PackageReference",

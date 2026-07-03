@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using MovieManger.PL.Models;
+using MovieManager.PL.Models;
 using System.Diagnostics;
 
-namespace MovieManger.PL.Controllers
+namespace MovieManager.PL.Controllers
 {
     public class HomeController : Controller
     {
