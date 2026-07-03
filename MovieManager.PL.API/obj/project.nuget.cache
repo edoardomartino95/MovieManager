@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "oB37kLTOR3c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A507apulia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\A507apulia\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Il pacchetto 'Microsoft.OpenApi' 2.0.0 presenta una vulnerabilità nota di gravità alta, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\A507apulia\\source\\repos\\MovieManger\\MovieManager.PL.API\\MovieManager.PL.API.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
