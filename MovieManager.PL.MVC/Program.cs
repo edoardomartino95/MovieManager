@@ -1,4 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using MovieManager.DAL.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("MovieDbString") 
+    ?? throw new InvalidOperationException("Connection string 'MovieDbString' non trovata ");
+
+builder.Services.AddDbContext<MovieDbContext>(options => options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -24,6 +32,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();

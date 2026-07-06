@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieManager.DAL.Entities
 {
-    internal class Movie
+    public class Movie
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;

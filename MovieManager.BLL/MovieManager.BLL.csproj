@@ -11,4 +11,8 @@
     <Folder Include="Services\Interfaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MovieManager.DAL\MovieManager.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MovieManager.DAL.Entities
 {
-    internal class Actor
+    public class Actor
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
