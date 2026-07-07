@@ -16,7 +16,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         _dbSet = _context
             .Set<T>();
     }
-
+         
     public  async Task<T?> GetByIdAsync(int id, CancellationToken cancellationToken = default)
     {
         return await _dbSet
